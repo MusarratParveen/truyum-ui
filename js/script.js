@@ -1,0 +1,29 @@
+function validate(){
+    var itemname=document.getElementById("td01").value;
+    var itemprice=document.getElementById("price").value;
+    var itemdate=document.getElementById("dateOfLaunch").value;
+    var itemCategory=document.getElementById("category").value;
+
+    if(itemname==""){
+        alert("Title is required");
+    }
+
+    if(itemprice==""){
+        alert("Price is required");
+    }
+
+    if(itemdate==""){
+        alert("Date of launch is required");
+    }
+
+    if(itemCategory=="0"){
+        alert("Category is reqired");
+    }
+
+    }
+
+
+    function deleted(){
+        alert("item deleted");
+    }
+
